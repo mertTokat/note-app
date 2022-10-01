@@ -1,0 +1,30 @@
+.notepad-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-container {
+    display: grid;
+    /* flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly; */
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 40px;
+}
+
+.note-container textarea {
+    margin: 40px auto 10px;
+}
+
+.note-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.note-container div button {
+    margin: 0px auto;
+}
